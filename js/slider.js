@@ -13,3 +13,15 @@ function slideJs(img){
   }
   Image.src = "img/img"+imageCount+ ".jpg";
 }
+
+window.setInterval(function auto(){
+  var Image = document.getElementById("img");
+  imageCount = imageCount + 1;
+  if (imageCount > imgTotal) {
+    imageCount = 1;
+  }
+  if(imageCount < 1){
+    imageCount = imgTotal;
+  }
+  Image.src = "img/img"+imageCount+ ".jpg";
+},5000)
