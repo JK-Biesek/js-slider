@@ -16,14 +16,12 @@ body{
   height: 350px;
   width: 100px;
   position: absolute;
-  top: 0px;
   right: 2px;
 }
 .left{
   height: 350px;
   width: 100px;
   position: absolute;
-  top: 0px;
   left: 2px;
 }
 .right img{
